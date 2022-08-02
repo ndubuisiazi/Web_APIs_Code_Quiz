@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title> Challenge 4 Quiz</title>
+        <link rel="stylesheet" href="./Quiz.css">
+    </head>
+    <body>
+        <section class="wrapper">
+            <section class="header"><div id="clock"></div><div id="score"></div></section>
+            <section id="start">
+                <section><p>Welcome! <br> You will have 10 minutest to answer 10 mulitple choice questions.<br>
+                    Correct answers are 10 points, wrong answers minus 1minute on the clock<br>
+                    Click to start</p></section>
+                <button id="startbtn">Start</button></section>
+                <section id="gameOver">
+                    <section>
+                        <div id="finalScore"></div>
+                        <h1>Game Over!<h1> If you would like to save your score, enter your name and click the save button below.</p>
+                    </section>
+                    <input id="name" placeholder="Name" >
+                    <button id="save">Save</button><p id="hof"></p></section>
+                    
+            <section id="mainsectionwrapper">
+                <section id="questions"></section>
+                <section id="answers">
+                    <label for="A" id="lableA"></label>
+                    <label for="B" id="lableB"></label>
+                    <label for="C" id="lableC"></label>
+                    <label for="D" id="lableD"></label>
+                </section>
+                <section id="radioWrapper">
+                    <input value="OptionA" id="A" class="choiceBtn" name="multipleChoice" type="radio">
+                    <input value="OptionB" id="B" class="choiceBtn" name="multipleChoice" type="radio">
+                    <input value="OptionC" id="C" class="choiceBtn" name="multipleChoice" type="radio">
+                    <input value="OptionD" id="D" class="choiceBtn" name="multipleChoice" type="radio">
+                </section>
+                <section id="result"></section>
+            </section>
+            <section id="next"><button id="submitbtn">Next</button></section>
+            
+        </section>
+
+        <script src="./Quiz.js"></script>
+    </body>
+</html>
